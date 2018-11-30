@@ -1,0 +1,46 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.8.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3",
+    "react-native": "0.57.5",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-elements": "^0.19.1",
+    "react-native-otp-inputs": "^1.0.0",
+    "react-native-radio-buttons-group": "^1.0.7",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-15": "^1.2.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "23.6.0",
+    "jest-enzyme": "^7.0.1",
+    "metro-react-native-babel-preset": "0.49.1",
+    "react-test-renderer": "^16.6.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    }
+  }
+}
